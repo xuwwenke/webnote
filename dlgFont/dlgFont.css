@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font-main{
+    height: 520px;
+    width: 438px;
+    border: 1px solid #0f7fd6;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    box-shadow: 10px 10px 10px #d6d6d6;
+    user-select: none;
+    cursor: default;
+}
+.font-title{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+.font-p{
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.font-close{
+    color: gray;
+    line-height: 30px;
+    float: right;
+    text-align: center;
+    width: 30px;
+}
+.font-close:hover{
+    background-color: red;
+    color: white;
+}
+.font-content{
+    width: 100%;
+    height: 488px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+.font-family{
+    margin-right: 16px;
+    width: 176px;
+    float: left;
+    margin-left: 16px;
+}
+.font-family p{
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+
+.font-confirm{
+    height: 28px;
+    width: 86px;
+    bottom: 10px;
+    position: absolute;
+    right: 110px;
+}
+.font-cancel{
+    height: 28px;
+    width: 86px;
+    bottom: 10px;
+    position: absolute;
+    right: 16px;
+}
+.show{
+    width: 100%;
+}
+ul{
+    list-style:none;
+}
+.font-main .font-content ul{
+    background-color: white;
+    border: 1px solid #828790;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 116px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.selected{
+    background-color: #0078d7;
+    color: #fff;
+}
+.font-style{
+    margin-right: 16px;
+    width: 132px;
+    float: left;
+}
+.font-style p{
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+.font-size{
+    width: 64px;
+    float: left;
+}
+.font-size p{
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+.exp{
+    border-color: white;
+    height: 80px;
+    margin-left: 16px;
+    width: 194px;
+    position: absolute;
+    bottom: 200px;
+}
+.exptext{
+    text-align: center;
+    line-height: 50px;
+}
+.last{
+    margin-top: 12px;
+    margin-left: 16px;
+    width: 194px;
+    position: absolute;
+    bottom: 140px;
+}
+select{
+    width: 100%;
+}
+a{
+    color: blue;
+    font-size: 0.9em;
+    position: absolute;
+    width: 100px;
+    left: 16px;
+    bottom: 70px;
+}
+
+.italic{
+    font-style: italic;
+}
+.weight{
+    font-weight: bold;
+}
